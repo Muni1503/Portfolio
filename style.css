@@ -422,6 +422,13 @@ form textarea{
     #menu-icon{
         display: block;
     }
+    
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text h2{
+        font-size: 25px;
+    }
     .navlist{
         position: absolute;
         top:-1000px;
@@ -439,6 +446,12 @@ form textarea{
         font-size: 20px;
         transition: all .45s ease;
         color:var(--text-color)
+    }
+    .navlist a:hover{
+        color:var(--main-color)
+    }
+    .navlist a.active{
+        color:var(--main-color)
     }
     .navlist a:hover{
         color:var(--text-color);
